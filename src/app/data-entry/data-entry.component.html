@@ -1,0 +1,23 @@
+<!--<h1>
+  Students Components
+</h1>-->
+
+<span>Student ID</span>
+<input type="text" [(ngModel)]="studid"></input>
+
+<span>Student First Name</span>
+<input type="text" [(ngModel)]="studfname"></input>
+
+<span>Student Last Name</span>
+<input type="text" [(ngModel)]="studlname"></input>
+
+<span>Student Program</span>
+<input type="text" [(ngModel)]="studprog"></input>
+
+<span>Year</span>
+<input type="text" [(ngModel)]="studyr"></input>
+<app-add-entry [student] = "getStudent()"></app-add-entry>
+
+
+<!--<button >Add Students</button>
+<button>Display Students</button>
